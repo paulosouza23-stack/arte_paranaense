@@ -26,16 +26,16 @@ p {
 }
 button {
     background-color: #6b2d5c;
-    color: white:
+    color: white;
     border: none;
     padding: 10px 15px;
-    border-randius: 8px;
-    cursor: pointer;
+    border-radius: 8px;
+    cursor: ponter;
 }
-button : hover {
+button:hover {
     background-color: #9b4d83;
 }
-curtir {
+.curtir {
     display: block;
     width: fit-content;
     margin:20px auto;
