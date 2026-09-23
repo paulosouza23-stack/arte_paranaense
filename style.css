@@ -24,3 +24,19 @@ p {
     font-size: 18px;
     line-height: 1.6;
 }
+button {
+    background-color: #6b2d5c;
+    color: white:
+    border: none;
+    padding: 10px 15px;
+    border-randius: 8px;
+    cursor: pointer;
+}
+button : hover {
+    background-color: #9b4d83;
+}
+curtir {
+    display: block;
+    width: fit-content;
+    margin:20px auto;
+}
