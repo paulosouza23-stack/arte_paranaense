@@ -1,12 +1,25 @@
+:root{
+    --cor-fundo: #000000;
+    --cor-texto: #FFFFFF;
+    --cor-principal: #1C008B;
+    --cor-secundaria: #5b46afce;
+    --cor-hover: #ab9beb;
+    --cor-superficie: #000000;
+    --cor-card: #ff0101;
+    --cor-legenda: #555555;
+    --cor-clara: #FFFFFF;
+    --cor-rodape: #080027;
+}
+
 body {
-    background-color:#000000;
-    color:#FFFFFF;
+    background-color: var(--cor-fundo);
+    color:var(--cor-texto);
     font-family: Arial, sans-serif;
 }
 
 header {
-background-color: #1C008B;
-color: #FFFFFF;
+background-color: var(--cor-principal);
+color: var(--cor-clara);
 text-align: center;
 padding: 30px;
 }
@@ -16,7 +29,7 @@ h1 {
 }
 
 h2 {
-    color: #000000;
+    color: var(--cor-principal);
 
 }
 
@@ -24,16 +37,68 @@ p {
     font-size: 18px;
     line-height: 1.6;
 }
+nav a {
+color: var(--cor-clara);
+text-decoration: none;
+background-color: var(--cor-secundaria);
+padding: 10px 15px;
+border-radius: 8px;
+margin: 5px;
+display: inline-block;
+}
+nav a:hover {
+    background-color: var(--cor-hover);
+}
+main {
+    width: 80%;
+    margin: auto;
+}
+    section {
+        background-color: #000000;
+        margin: 20px 0;
+        padding: 20px;
+        border-radius: 12px;
+    }
+    img {
+        width: 100%;
+        max-width: 600px;
+        display: block;
+        margin: auto;
+        border-radius: 12px;
+    }
+    figcaption {
+        text-align: center;
+        font-size: 14px;
+        color: var(--cor-legenda);
+        margin-top: 8px;
+    }
+    card {
+        background-color: var(--cor-card);
+        padding: 15px;
+        margin: 15px 0;
+        border-left: 6px solid var(--cor-principal);
+        border-radius: 10px;
+    }
+    card h3 {
+        margin-top:0;
+    }
+    footer {
+        background-color: var(--cor-rodape);
+        color: var(--cor-clara);
+        text-alingh: center;
+        passind: 209px;
+        margin-top: 30px;
+    }
 button {
-    background-color: #6b2d5c;
-    color: white;
+    background-color: var(--cor-principal);
+    color: var(--cor-clara);
     border: none;
     padding: 10px 15px;
     border-radius: 8px;
     cursor: ponter;
 }
 button:hover {
-    background-color: #9b4d83;
+    background-color: var(--cor-hover);
 }
 .curtir {
     display: block;
