@@ -1,5 +1,5 @@
 :root{
-    --cor-fundo: #000000;
+    --cor-fundo: #1f4100;
     --cor-texto: #FFFFFF;
     --cor-principal: #fa0000;
     --cor-secundaria: #ff01e6ce;
@@ -60,7 +60,7 @@ main {
     margin: auto;
 }
     section {
-        background-color: #ff0000;
+        background-color: var(--cor-secundaria);
         margin: 20px 0;
         padding: 20px;
         border-radius: 12px;
