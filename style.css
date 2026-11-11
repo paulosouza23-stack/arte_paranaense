@@ -1,8 +1,8 @@
-:root{
+:root {
     --cor-fundo: #1f4100;
     --cor-texto: #000000;
     --cor-principal: #002c0049;
-    --cor-secundaria: #007c00ce;
+    --cor-secundaria: #ffffffce;
     --cor-hover: #ffffff;
     --cor-superficie: #df1111;
     --cor-card: #ff0101;
@@ -10,6 +10,7 @@
     --cor-clara: #FFFFFF;
     --cor-rodape: #73ff00;
 }
+
 .tema-escuro {
     --cor-fundo: #121212;
     --cor-texto: #f5f5f5;
@@ -17,17 +18,18 @@
     --cor-superficie: #1e1e1e;
     --cor-card: #2b2530;
 }
+
 body {
     background-color: var(--cor-fundo);
-    color:var(--cor-texto);
+    color: var(--cor-texto);
     font-family: Arial, sans-serif;
 }
 
 header {
-background-color: var(--cor-principal);
-color: var(--cor-clara);
-text-align: center;
-padding: 30px;
+    background-color: var(--cor-principal);
+    color: var(--cor-clara);
+    text-align: center;
+    padding: 30px;
 }
 
 h1 {
@@ -43,85 +45,100 @@ p {
     font-size: 18px;
     line-height: 1.6;
 }
+
 nav a {
-color: var(--cor-clara);
-text-decoration: none;
-background-color: var(--cor-secundaria);
-padding: 10px 15px;
-border-radius: 8px;
-margin: 5px;
-display: inline-block;
+    color: var(--cor-clara);
+    text-decoration: none;
+    background-color: var(--cor-secundaria);
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin: 5px;
+    display: inline-block;
 }
+
 nav a:hover {
     background-color: var(--cor-hover);
 }
+
 main {
     width: 80%;
     margin: auto;
 }
-    section {
-        background-color: var(--cor-secundaria);
-        margin: 20px 0;
-        padding: 20px;
-        border-radius: 12px;
-    }
-    img {
-        width: 100%;
-        max-width: 600px;
-        display: block;
-        margin: auto;
-        border-radius: 12px;
-    }
-    figcaption {
-        text-align: center;
-        font-size: 14px;
-        color: var(--cor-legenda);
-        margin-top: 8px;
-    }
-    card {
-        background-color: var(--cor-card);
-        padding: 15px;
-        margin: 15px 0;
-        border-left: 6px solid var(--cor-principal);
-        border-radius: 10px;
-    }
-    card h3 {
-        margin-top:0;
-    }
-    footer {
-        background-color: var(--cor-rodape);
-        color: var(--cor-clara);
-        text-alingh: center;
-        passind: 209px;
-        margin-top: 30px;
-    }
+
+section {
+    background-color: var(--cor-secundaria);
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: auto;
+    border-radius: 12px;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 14px;
+    color: var(--cor-legenda);
+    margin-top: 8px;
+}
+
+.card {
+    background-color: var(--cor-card);
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 6px solid var(--cor-principal);
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: var(--cor-rodape);
+    color: var(--cor-clara);
+    text-align: center;
+    padding: 209px;
+    margin-top: 30px;
+}
+
 button {
     background-color: var(--cor-principal);
     color: var(--cor-clara);
     border: none;
     padding: 10px 15px;
     border-radius: 8px;
-    cursor: ponter;
+    cursor: pointer;
 }
+
 button:hover {
     background-color: var(--cor-hover);
 }
+
 .curtir {
     display: block;
     width: fit-content;
-    margin:20px auto;
+    margin: 20px auto;
 }
+
 .galeria {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
 }
+
 .cards-curiosidade {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
 }
+
 .bnt-tema {
     position: fixed;
     right: 20px;
@@ -131,4 +148,3 @@ button:hover {
     border-radius: 50%;
     font-size: 22px;
 }
-
